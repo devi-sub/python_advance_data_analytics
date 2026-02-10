@@ -1,4 +1,4 @@
-with open("sheet1.csv","r") as f:
+with open("sample.csv","r") as f:
     lines=f.read().splitlines()
 print(lines)
 text=[line.split(",") for line in lines]
